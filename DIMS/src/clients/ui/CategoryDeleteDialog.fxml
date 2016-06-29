@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="222.0" prefWidth="400.0" style="-fx-background-color: linear-gradient(to bottom, rgba(236,242,246,1) 0%,rgba(190,200,204,1) 100%);;" stylesheets="@/clients/ui/AdministratorMain.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clients.controllers.CategoryDeleteDialogController">
+   <children>
+      <Label layoutX="14.0" layoutY="26.0" prefHeight="35.0" prefWidth="313.0" text="삭제할 카테고리를 선택하세요.">
+         <font>
+            <Font name="HYwulM" size="22.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="category_selector" layoutX="197.0" layoutY="100.0" prefHeight="35.0" prefWidth="180.0" promptText="선  택" styleClass="smallSizeBox" />
+      <Label layoutX="44.0" layoutY="100.0" prefHeight="35.0" prefWidth="119.0" text="카테고리명 :">
+         <font>
+            <Font name="HYwulM" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="161.0" layoutY="169.0" mnemonicParsing="false" onAction="#onDeleteCategory" styleClass="btn" text="삭제">
+         <font>
+            <Font name="HYwulM" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
