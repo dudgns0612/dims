@@ -1,7 +1,10 @@
 #◎DIMS
   기숙사 정보 관리시스템(Dormitory Information Management System)
   기숙사 내에서 사감 및 관리자와 사생들간의 행하여 지는 일들을 처리하여주는 프로그램.
-
+  
+#◎개발언어
+  JAVA
+  
 #◎개발도구
    Java SE Development Kit 8, Eclipse, JavaFX Scene Builder 2.0, Xampp v.3.22
    >###Download  
