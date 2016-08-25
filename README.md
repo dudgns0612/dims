@@ -13,13 +13,6 @@
     Xampp - [Xampp v 3.22]
       (https://www.apachefriends.org/download.html) 
       
-#◎실행순서
-   1. database실행 : xampp실행 후 mysql start 실행
-   2. mysql일 성공적으로 실행 되면 serverControlPanel.java실행 Start버튼 클릭
-   3. serverControlPanel.java이 성공적으로 실행 되면 clients.Start.java실행
-   4. 서버ip 입력 후 서버연결이 완료되면 로그인화면 창이 실행됨.
-   5. db정보에 따라 관리자 및 학생클라이언트 실행
-
 #◎시스템구성
 
 ###* 기본설정
@@ -50,3 +43,10 @@
     cilents.SceneManager.java : 실행하는 동안에 필요에 따라 화면전환, 컨트롤러 정보 전달등 UI설정을 수행함     
     clients.CustomDialog.java : 실행하는 동안에 전달,입력,경고등 필요에 따라 사용 하는 다이얼로그
     client.ui, serverui, resources : client fxml, server fxml, UI에 필요한 이미지/아이콘을 담고 있는 것
+    
+#◎실행순서
+   1. database실행 : xampp실행 후 mysql start 실행
+   2. mysql일 성공적으로 실행 되면 serverControlPanel.java실행 Start버튼 클릭
+   3. serverControlPanel.java이 성공적으로 실행 되면 clients.Start.java실행
+   4. 서버ip 입력 후 서버연결이 완료되면 로그인화면 창이 실행됨.
+   5. db정보에 따라 관리자 및 학생클라이언트 실행
